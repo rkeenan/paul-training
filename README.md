@@ -20,11 +20,11 @@ To build all the modules run in the project root directory the following command
 
 If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
-    mvn clean install -PautoInstallPackage
+    mvn clean install -Plocal-author
     
 Or to deploy it to a publish instance, run
 
-    mvn clean install -PautoInstallPackagePublish
+    mvn clean install -Plocal-publish
     
 Or to deploy only the bundle to the author, run
 
