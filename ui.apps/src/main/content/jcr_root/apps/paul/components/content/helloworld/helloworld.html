@@ -15,7 +15,12 @@
 */-->
 <p data-sly-test="${properties.text}">Text property: ${properties.text}</p>
 
-<pre data-sly-use.hello="com.paul.training.core.models.HelloWorldModel">
-HelloWorldModel says:
-${hello.message}
-</pre>
+<div>
+    title: ${properties.title}
+</div>
+
+<sly data-sly-use.hello="com.paul.training.core.models.HelloWorldModel"/>
+
+<div>
+    ${hello.message}
+</div>
