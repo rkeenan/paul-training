@@ -6,6 +6,8 @@ out/
 *.ipr
 *.iws
 build/*
+*/target/*
+target/*
 
 # Eclipse project files
 */target/*
